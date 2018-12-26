@@ -1,0 +1,83 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form {
+  width: 60%;
+  padding: 10px 20px;
+  margin: auto;
+}
+.form form input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.form label {
+  color: chocolate;
+}
+
+
+.form button {
+  border: 2px solid rgb(75, 145, 6);
+  color: rgb(75, 145, 6);
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 7px 7px;
+  background-color:  beige;
+  cursor: pointer;
+}
+
+
+.form button:hover {
+  background-color: chartreuse;
+}
+
+.hide {
+  text-align: center;
+}
+
+
+.hide button {
+  border: 5px solid red;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 7px 7px;
+  color: red;
+  background-color: beige;
+}
+
+
+.itemBox {
+  width: 60%;
+  margin: auto;
+}
+
+
+.itemBox h1 {
+  color: darkturquoise;
+  text-align: center;
+}
+
+.allItem {
+  width: 100%;
+}
+.item {
+  color: blue; 
+  overflow: hidden;
+  width: 42%;
+  float: left;
+  text-align: center;
+  margin: 2%;
+  border: 1px dashed rgb(67, 179, 245);
+  padding: 10px;
+}
+
+
+.item button {
+  border: 3px solid yellowgreen;
+  background-color: white;
+  color: yellowgreen;
+}
